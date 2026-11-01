@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Development ABL - Case Study Gallery</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, sans-serif; background: #f4f6fb; color: #243047; line-height: 1.6; }
+    header { background: #263b80; color: white; text-align: center; padding: 42px 18px; }
+    header h1 { margin: 0 0 8px; }
+    main { max-width: 1100px; margin: 32px auto; padding: 0 18px; }
+    .student { background: white; padding: 18px 22px; border-radius: 12px; margin-bottom: 24px; box-shadow: 0 4px 14px #263b8012; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 22px; }
+    .card { background: white; border-radius: 14px; overflow: hidden; box-shadow: 0 5px 18px #263b8018; }
+    .card img { display: block; width: 100%; height: auto; border-bottom: 1px solid #e5e7eb; }
+    .card-content { padding: 18px; }
+    .card h2 { margin: 0 0 8px; color: #263b80; font-size: 1.25rem; }
+    .links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 16px; }
+    .links a { display: inline-block; padding: 9px 14px; border-radius: 22px; text-decoration: none; background: #263b80; color: white; font-weight: bold; }
+    .links a.secondary { background: #e0e7ff; color: #263b80; }
+    footer { text-align: center; padding: 22px; color: #5b6475; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Web Development ABL</h1>
+    <p>HTML and CSS Case Study Output Gallery</p>
+  </header>
+  <main>
+    <section class="student">
+      <h2>Student Details</h2>
+      <p><strong>Name:</strong> Bejawada Harini &nbsp; | &nbsp; <strong>Roll No:</strong> 26001274</p>
+      <p><strong>Branch:</strong> CSM &nbsp; | &nbsp; <strong>Section:</strong> 7</p>
+    </section>
+    <section class="grid" aria-label="Case study outputs">
+      <article class="card">
+        <img src="Personal_Portfolio/output-screenshot.svg" alt="Personal Portfolio webpage output preview">
+        <div class="card-content">
+          <h2>1. Personal Portfolio</h2>
+          <p>A personal webpage presenting an introduction, education, skills, projects and contact details.</p>
+          <div class="links">
+            <a href="Personal_Portfolio/">Open Website</a>
+            <a class="secondary" href="Personal_Portfolio/output-screenshot.svg">View Output</a>
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <img src="Bakery_Website/output-screenshot.svg" alt="Sweet Treats Bakery webpage output preview">
+        <div class="card-content">
+          <h2>2. Bakery and Cake Shop</h2>
+          <p>A bakery website showing featured cakes, cupcakes, pastries, prices, offers and contact details.</p>
+          <div class="links">
+            <a href="Bakery_Website/">Open Website</a>
+            <a class="secondary" href="Bakery_Website/output-screenshot.svg">View Output</a>
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <img src="Restaurant_Cafe/output-screenshot.svg" alt="The Food Corner restaurant webpage output preview">
+        <div class="card-content">
+          <h2>3. Restaurant and Cafe</h2>
+          <p>A restaurant webpage featuring popular dishes, menu prices, service information and contact details.</p>
+          <div class="links">
+            <a href="Restaurant_Cafe/">Open Website</a>
+            <a class="secondary" href="Restaurant_Cafe/output-screenshot.svg">View Output</a>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer>© 2026 Web Development ABL | Created using HTML and CSS</footer>
+</body>
+</html>
